@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DayFrag"
+    android:orientation="vertical"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="date"
+        android:id="@+id/dateLess"
+        android:textStyle="italic"/>
+
+    <fragment
+        android:id = "@+id/less1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+
+        class="com.copift.homeworkreminder.LessonFrag"
+        />
+
+    <fragment
+        android:id = "@+id/less2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.copift.homeworkreminder.LessonFrag"
+        android:layout_gravity="center"
+        />
+
+    <fragment
+        android:id = "@+id/less3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.copift.homeworkreminder.LessonFrag"
+        android:layout_gravity="center"
+        />
+
+    <fragment
+        android:id = "@+id/less4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.copift.homeworkreminder.LessonFrag"
+        android:layout_gravity="center"
+        />
+    <fragment
+        android:id = "@+id/less5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        class="com.copift.homeworkreminder.LessonFrag"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
